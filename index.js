@@ -1,5 +1,6 @@
 
 module.exports = {
   rootHash: '_r',
-  currentHash: '_c'
+  currentHash: '_c',
+  sig: '_s'
 }
