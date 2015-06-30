@@ -6,10 +6,12 @@ module.exports = {
   DATA_ARG_NAME: DATA_ARG_NAME,
   JSON_CONTENT_DISP: 'Content-Disposition: form-data; name="' + DATA_ARG_NAME + '"',
   DEFAULT_BOUNDARY: '--------------------------000000000000000000000000',
-  curHash: '_c',
-  prevHash: '_p',
-  rootHash: '_r',
-  owner: '_o',
-  nextOwner: '_n',
-  sig: '_s'
+  OP_RETURN_PREFIX: 'tradle',
+  TYPE: '_t',
+  CUR_HASH: '_c',
+  PREV_HASH: '_p',
+  ROOT_HASH: '_r',
+  OWNER: '_o',
+  NEXT_OWNER: '_n',
+  SIG: '_s'
 }
