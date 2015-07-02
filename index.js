@@ -13,5 +13,8 @@ module.exports = {
   ROOT_HASH: '_r',
   OWNER: '_o',
   NEXT_OWNER: '_n',
-  SIG: '_s'
+  SIG: '_s',
+  TYPES: {
+    IDENTITY: 'tradle.Identity'
+  }
 }
