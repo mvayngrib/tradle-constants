@@ -3,7 +3,7 @@
   "bugs": {
     "url": "https://github.com/mvayngrib/tradle-constants/issues"
   },
-  "description": "[![NPM](https://nodei.co/npm/tradle-constants.png)](https://nodei.co/npm/tradle-constants/)",
+  "description": "constants for [tradle](https://github.com/tradle/about/wiki) network",
   "devDependencies": {
     "pre-commit": "latest",
     "standard": "latest",
