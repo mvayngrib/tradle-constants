@@ -15,6 +15,9 @@ module.exports = {
   NEXT_OWNER: '_n',
   SIG: '_s',
   TYPES: {
-    IDENTITY: 'tradle.Identity'
+    IDENTITY: 'tradle.Identity',
+    ORGANIZATION: 'tradle.Organization',
+    MESSAGE: 'tradle.Message',
+    ADDITIONAL_INFO: 'tradle.AdditionalInfo'
   }
 }
