@@ -19,6 +19,7 @@ module.exports = {
     ORGANIZATION: 'tradle.Organization',
     VERIFICATION: 'tradle.Verification',
     MESSAGE: 'tradle.Message',
+    SIMPLE_MESSGAE: 'tradle.SimpleMessage',
     ADDITIONAL_INFO: 'tradle.AdditionalInfo'
   }
 }
