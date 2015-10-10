@@ -21,5 +21,6 @@ module.exports = {
     MESSAGE: 'tradle.Message',
     SIMPLE_MESSAGE: 'tradle.SimpleMessage',
     ADDITIONAL_INFO: 'tradle.AdditionalInfo'
-  }
+  },
+  NONCE: '_z'
 }
