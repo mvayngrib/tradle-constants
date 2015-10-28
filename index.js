@@ -23,5 +23,6 @@ module.exports = {
     SIMPLE_MESSAGE: 'tradle.SimpleMessage',
     ADDITIONAL_INFO: 'tradle.AdditionalInfo'
   },
-  NONCE: '_z'
+  NONCE: '_z',
+  afterBlockTimestamp: 1446035976
 }
