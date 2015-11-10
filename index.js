@@ -24,5 +24,5 @@ module.exports = {
     ADDITIONAL_INFO: 'tradle.AdditionalInfo'
   },
   NONCE: '_z',
-  afterBlockTimestamp: 1446035976
+  afterBlockTimestamp: 1447181514
 }
