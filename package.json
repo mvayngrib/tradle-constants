@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "tradle-constants",
+  "name": "@tradle/constants",
   "pre-commit": [
     "style"
   ],
