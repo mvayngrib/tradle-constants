@@ -16,12 +16,19 @@ module.exports = {
   SIG: '_s',
   SIGNEE: '_i',
   TYPES: {
+    MODEL: 'tradle.Model',
     IDENTITY: 'tradle.Identity',
     ORGANIZATION: 'tradle.Organization',
     VERIFICATION: 'tradle.Verification',
+    FORGET_ME: 'tradle.ForgetMe',
+    PRODUCT_LIST: 'tradle.ProductList',
+    CUSTOMER_WAITING: 'tradle.CustomerWaiting',
     MESSAGE: 'tradle.Message',
     SIMPLE_MESSAGE: 'tradle.SimpleMessage',
-    ADDITIONAL_INFO: 'tradle.AdditionalInfo'
+    ADDITIONAL_INFO: 'tradle.AdditionalInfo',
+    MONEY: 'tradle.Money',
+    FINANCIAL_PRODUCT: 'tradle.FinancialProduct',
+    FORM: 'tradle.Form'
   },
   NONCE: '_z',
   afterBlockTimestamp: 1447181514
