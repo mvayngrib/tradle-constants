@@ -21,6 +21,8 @@ module.exports = {
     ORGANIZATION: 'tradle.Organization',
     VERIFICATION: 'tradle.Verification',
     FORGET_ME: 'tradle.ForgetMe',
+    FORGET_YOU: 'tradle.ForgetYou',
+    IDENTITY_PUBLISHING_REQUEST: 'tradle.IdentityPublishRequest',
     PRODUCT_LIST: 'tradle.ProductList',
     CUSTOMER_WAITING: 'tradle.CustomerWaiting',
     MESSAGE: 'tradle.Message',
