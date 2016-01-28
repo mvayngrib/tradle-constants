@@ -18,6 +18,7 @@ module.exports = {
   TYPES: {
     MODEL: 'tradle.Model',
     IDENTITY: 'tradle.Identity',
+    PROFILE: 'tradle.Profile',
     ORGANIZATION: 'tradle.Organization',
     VERIFICATION: 'tradle.Verification',
     FORGET_ME: 'tradle.ForgetMe',
