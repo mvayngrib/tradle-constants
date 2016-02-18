@@ -32,7 +32,8 @@ module.exports = {
     ADDITIONAL_INFO: 'tradle.AdditionalInfo',
     MONEY: 'tradle.Money',
     FINANCIAL_PRODUCT: 'tradle.FinancialProduct',
-    FORM: 'tradle.Form'
+    FORM: 'tradle.Form',
+    SELF_INTRODUCTION: 'tradle.SelfIntroduction'
   },
   NONCE: '_z',
   afterBlockTimestamp: 1447181514
