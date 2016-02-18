@@ -33,6 +33,8 @@ module.exports = {
     MONEY: 'tradle.Money',
     FINANCIAL_PRODUCT: 'tradle.FinancialProduct',
     FORM: 'tradle.Form',
+    MY_IDENTITIES: 'tradle.MyIdentities',
+    SETTINGS: 'tradle.Settings',
     SELF_INTRODUCTION: 'tradle.SelfIntroduction'
   },
   NONCE: '_z',
