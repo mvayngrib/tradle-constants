@@ -35,7 +35,8 @@ module.exports = {
     FORM: 'tradle.Form',
     MY_IDENTITIES: 'tradle.MyIdentities_1',
     SETTINGS: 'tradle.Settings',
-    SELF_INTRODUCTION: 'tradle.SelfIntroduction'
+    SELF_INTRODUCTION: 'tradle.SelfIntroduction',
+    ENUM: 'tradle.ENUM'
   },
   NONCE: '_z',
   afterBlockTimestamp: 1447181514
