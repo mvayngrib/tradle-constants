@@ -16,6 +16,7 @@ module.exports = {
   PERMALINK: '_r',
   OWNER: '_o',
   SIG: '_s',
+  WITNESSES: '_w',
   SEQ: '_n',
   SIGNEE: '_i',
   // misnomer, renamed to PREV_TO_RECIPIENT
