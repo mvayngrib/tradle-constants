@@ -22,7 +22,8 @@ module.exports = {
   // misnomer, renamed to PREV_TO_RECIPIENT
   PREV_TO_SENDER: '_q',
   PREV_TO_RECIPIENT: '_q',
-  AUTHOR: '_a',
+  AUTHOR: '_author',
+  TIMESTAMP: '_time',
   VERSION: '_v',
   PREVHEADER: '_ph',
   TYPES: {
