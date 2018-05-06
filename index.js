@@ -15,13 +15,15 @@ module.exports = {
   ROOT_HASH: '_r',
   PERMALINK: '_r',
   OWNER: '_o',
-  NEXT_OWNER: '_n',
   SIG: '_s',
   SEQ: '_n',
   SIGNEE: '_i',
   // misnomer, renamed to PREV_TO_RECIPIENT
   PREV_TO_SENDER: '_q',
   PREV_TO_RECIPIENT: '_q',
+  AUTHOR: '_a',
+  VERSION: '_v',
+  PREVHEADER: '_ph',
   TYPES: {
     MODEL: 'tradle.Model',
     IDENTITY: 'tradle.Identity',
