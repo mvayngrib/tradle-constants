@@ -23,6 +23,7 @@ module.exports = {
   PREV_TO_SENDER: '_q',
   PREV_TO_RECIPIENT: '_q',
   AUTHOR: '_author',
+  RECIPIENT: '_recipient',
   TIMESTAMP: '_time',
   VERSION: '_v',
   PREVHEADER: '_ph',
