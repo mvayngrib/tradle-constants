@@ -24,6 +24,8 @@ module.exports = {
   PREV_TO_RECIPIENT: '_q',
   AUTHOR: '_author',
   RECIPIENT: '_recipient',
+  ORG: '_org',
+  ORG_SIG: '_orgsig',
   TIMESTAMP: '_time',
   VERSION: '_v',
   PREVHEADER: '_ph',
