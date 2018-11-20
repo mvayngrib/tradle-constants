@@ -28,6 +28,7 @@ module.exports = {
   ORG_SIG: '_orgsig',
   TIMESTAMP: '_time',
   VERSION: '_v',
+  PROTOCOL_VERSION: '_pv',
   PREVHEADER: '_ph',
   TYPES: {
     MODEL: 'tradle.Model',
