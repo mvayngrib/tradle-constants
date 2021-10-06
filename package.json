@@ -1,7 +1,7 @@
 {
   "author": "Mark Vayngrib <mark.vayngrib@lablz.com> (http://github.com/mvayngrib)",
   "bugs": {
-    "url": "https://github.com/mvayngrib/tradle-constants/issues"
+    "url": "https://github.com/tradle/constants/issues"
   },
   "description": "constants for [tradle](https://github.com/tradle/about/wiki) network",
   "devDependencies": {
@@ -9,7 +9,7 @@
     "standard": "^16.0.4",
     "typescript": "^4.4.3"
   },
-  "homepage": "https://github.com/mvayngrib/tradle-constants",
+  "homepage": "https://github.com/tradle/constants",
   "keywords": [
     "tradle",
     "bitcoin",
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mvayngrib/tradle-constants.git"
+    "url": "https://github.com/tradle/constants.git"
   },
   "scripts": {
     "build": "tsc index.ts --declaration; standard index.js --fix",
