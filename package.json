@@ -27,8 +27,8 @@
     "url": "https://github.com/mvayngrib/tradle-constants.git"
   },
   "scripts": {
-    "build": "tsc index.ts --declaration; standard --fix",
-    "lint": "standard"
+    "build": "tsc index.ts --declaration; standard index.js --fix",
+    "lint": "standard index.js"
   },
   "version": "2.5.0"
 }
