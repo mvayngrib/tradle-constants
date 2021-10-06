@@ -30,5 +30,5 @@
     "build": "tsc index.ts --declaration; standard index.js --fix",
     "lint": "standard index.js"
   },
-  "version": "2.5.0"
+  "version": "2.5.1"
 }
