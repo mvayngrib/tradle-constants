@@ -1,10 +1,10 @@
 
-var DATA_ARG_NAME = 'data'
+const DATA_ARG_NAME = 'data'
 
-module.exports = {
+export = Object.freeze({
   IDENTITY_PUBLISH_ADDRESS: 'mhKnKtPFCbYpC61buDMgSBB57mqiWvXCUo',
   DATA_ARG_NAME: DATA_ARG_NAME,
-  JSON_CONTENT_DISP: 'Content-Disposition: form-data; name="' + DATA_ARG_NAME + '"',
+  JSON_CONTENT_DISP: `Content-Disposition: form-data; name="${DATA_ARG_NAME}"` as const,
   DEFAULT_BOUNDARY: '--------------------------000000000000000000000000',
   OP_RETURN_PREFIX: 'tradle',
   TYPE: '_t',
@@ -30,7 +30,7 @@ module.exports = {
   VERSION: '_v',
   PROTOCOL_VERSION: '_pv',
   PREVHEADER: '_ph',
-  TYPES: {
+  TYPES: Object.freeze({
     MODEL: 'tradle.Model',
     IDENTITY: 'tradle.Identity',
     PROFILE: 'tradle.Profile',
@@ -52,7 +52,7 @@ module.exports = {
     SETTINGS: 'tradle.Settings',
     SELF_INTRODUCTION: 'tradle.SelfIntroduction',
     ENUM: 'tradle.Enum'
-  },
+  } as const),
   NONCE: '_z',
   afterBlockTimestamp: 1447181514
-}
+} as const)

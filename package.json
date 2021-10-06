@@ -7,7 +7,8 @@
   "devDependencies": {
     "pre-commit": "latest",
     "standard": "latest",
-    "tape": "latest"
+    "tape": "latest",
+    "typescript": "^4.4.3"
   },
   "homepage": "https://github.com/mvayngrib/tradle-constants",
   "keywords": [
@@ -20,14 +21,15 @@
   "main": "index.js",
   "name": "@tradle/constants",
   "pre-commit": [
-    "style"
+    "build"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mvayngrib/tradle-constants.git"
   },
   "scripts": {
-    "style": "standard"
+    "build": "tsc index.ts --declaration; standard --fix",
+    "lint": "standard"
   },
   "version": "2.5.0"
 }
