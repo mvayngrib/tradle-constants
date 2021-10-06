@@ -5,9 +5,8 @@
   },
   "description": "constants for [tradle](https://github.com/tradle/about/wiki) network",
   "devDependencies": {
-    "pre-commit": "latest",
-    "standard": "latest",
-    "tape": "latest",
+    "pre-commit": "^1.2.2",
+    "standard": "^16.0.4",
     "typescript": "^4.4.3"
   },
   "homepage": "https://github.com/mvayngrib/tradle-constants",
