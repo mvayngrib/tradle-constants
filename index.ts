@@ -62,7 +62,8 @@ export = Object.freeze({
     MY_IDENTITIES: 'tradle.MyIdentities_1',
     SETTINGS: 'tradle.Settings',
     SELF_INTRODUCTION: 'tradle.SelfIntroduction',
-    ENUM: 'tradle.Enum'
+    ENUM: 'tradle.Enum',
+    PARTIAL: 'tradle.Partial'
   } as const),
   NONCE: '_z',
   afterBlockTimestamp: 1447181514
