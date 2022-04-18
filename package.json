@@ -18,6 +18,16 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js"
+    },
+    "./types": {
+      "types": "./types.d.ts",
+      "require": "./types.js"
+    }
+  },
   "name": "@tradle/constants",
   "pre-commit": [
     "build"
@@ -27,8 +37,8 @@
     "url": "https://github.com/tradle/constants.git"
   },
   "scripts": {
-    "build": "tsc index.ts --declaration; standard index.js --fix",
-    "lint": "standard index.js"
+    "build": "tsc index.ts types.ts --declaration && echo 'module.exports = {}' > types.js && (mv .gitignore .gitignore.bak && standard index.js --fix; mv .gitignore.bak .gitignore)",
+    "lint": "standard *.js"
   },
   "version": "2.5.1"
 }

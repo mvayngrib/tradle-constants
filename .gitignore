@@ -1,4 +1,6 @@
 node_modules
 index.js
 index.d.ts
+types.js
+types.d.ts
 package-lock.json
