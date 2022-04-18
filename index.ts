@@ -7,6 +7,7 @@ export = Object.freeze({
   JSON_CONTENT_DISP: `Content-Disposition: form-data; name="${DATA_ARG_NAME}"` as const,
   DEFAULT_BOUNDARY: '--------------------------000000000000000000000000',
   OP_RETURN_PREFIX: 'tradle',
+  ENTRY_PROP: '_',
   TYPE: '_t',
   /**
    * @deprecated use LINK
