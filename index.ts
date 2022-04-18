@@ -8,10 +8,19 @@ export = Object.freeze({
   DEFAULT_BOUNDARY: '--------------------------000000000000000000000000',
   OP_RETURN_PREFIX: 'tradle',
   TYPE: '_t',
+  /**
+   * @deprecated use LINK
+   */
   CUR_HASH: '_c',
   LINK: '_c',
+  /**
+   * @deprected use PREV_LINK
+   */
   PREV_HASH: '_p',
   PREVLINK: '_p',
+  /**
+   * @deprecated use PERMALINK
+   */
   ROOT_HASH: '_r',
   PERMALINK: '_r',
   OWNER: '_o',
@@ -19,7 +28,9 @@ export = Object.freeze({
   WITNESSES: '_w',
   SEQ: '_n',
   SIGNEE: '_i',
-  // misnomer, renamed to PREV_TO_RECIPIENT
+  /**
+   * @deprecated use PREV_TO_RECIPIENT
+  */
   PREV_TO_SENDER: '_q',
   PREV_TO_RECIPIENT: '_q',
   AUTHOR: '_author',
